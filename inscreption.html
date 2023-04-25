@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>inscreption</title>
+</head>
+<body>
+  <form>
+    <div class="flex">
+      <label for="nom">Nom*</label>
+      <input type="text" id="nom" name="nom" required>
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" name="prenom">
+    </div>
+    
+    
+    
+    <label for="telephone">Téléphone *</label>
+    <div class="telephone-container">
+      <span>+212</span>
+      <input type="tel" id="telephone" name="telephone" required>
+    </div>
+    
+    <label for="email">E-mail *</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="formation">Formation *</label>
+     <input type="text" required>
+    
+    <label for="fonction">Fonction</label>
+    <div class="flex">
+      <input type="radio" id="entreprise" name="fonction" value="entreprise">
+    <label for="entreprise">Entreprise</label>
+    <input type="radio" id="particulier" name="fonction" value="particulier">
+    <label for="particulier">Particulier</label>
+    </div>
+    <br>
+    <label for="fonction"> Type De Formation</label>
+    <div class="flex">
+      <input type="radio" id="online"   value="online">
+    <label for="entreprise">Online</label>
+    <input type="radio" id="présentiel" value="présentiel">
+    <label for="particulier">Présentiel</label>
+    </div>
+    <br>
+    <label for="fonction">  Type de Paiement</label>
+    <div class="flex">
+      <input type="radio" id="cash"   value="cash">
+    <label for="entreprise">Cash</label>
+    <input type="radio" id="carte bancaire" value="carte bancaire">
+    <label for="particulier">Carte bancaire</label>
+    </div>
+
+
+    
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message"></textarea>
+    
+    <button type="submit">Envoyer</button>
+  </form>
+
+</body>
+</html>
